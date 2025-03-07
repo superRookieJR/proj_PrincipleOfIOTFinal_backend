@@ -58,7 +58,7 @@ app.get("/", (req, res) => {
 
 function updateDatabase(req, res, sqlCommand, mode) {
   try {
-    const { name, value } = req.body;
+    const { name, value } = req.body; 
 
     if (!name || !value) {
       return res
